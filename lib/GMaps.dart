@@ -123,7 +123,9 @@ class _GMapsState extends State<GMaps> {
     return Stack(
       clipBehavior: Clip.none,
       children: <Widget>[
-        GoogleMap(
+        SafeArea(
+          bottom: false,
+          child: GoogleMap(
           onTap: (argument) => this.widget._toggle(),
           zoomControlsEnabled: false,
           // gestureRecognizers: GestureRecognizerFactory(
@@ -141,13 +143,11 @@ class _GMapsState extends State<GMaps> {
           markers: _marker,
           polylines: _polyline,
           onCameraMove: _cameraMove,
-        ),
+        ),),
         Align(
           alignment: Alignment.topRight,
-          child: Padding(
-            padding: EdgeInsets.only(
-              top: 28.0,
-            ),
+          child: SafeArea(
+            right: false,
             child: Column(
               children: [
                 ElevatedButton(

@@ -22,8 +22,13 @@ environment:
 
 dependencies:
   http: ^0.12.2
-  google_maps_flutter: ^1.1.1
+  google_maps_flutter: ^2.0.1
   flutter_polyline_points: ^0.2.4
+  flutter_google_places: ^0.2.8
+  google_maps_webservice: ^0.0.19
+
+  cloud_firestore: ^0.13.0+1
+  flutter_form_builder: ^3.7.2
   flutter:
     sdk: flutter
 

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "646790757907",
+    "firebase_url": "https://arizona-roadmaps-default-rtdb.firebaseio.com",
+    "project_id": "arizona-roadmaps",
+    "storage_bucket": "arizona-roadmaps.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:646790757907:android:fbb297641a5efe25c2c9e6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "646790757907-6v40nl8m5mrjpp0i8uhdedenemo6655l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgGyEZProRd4VkkKgXiqELwCFLIizYLGM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "646790757907-6v40nl8m5mrjpp0i8uhdedenemo6655l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "646790757907-d4o6kd49uarkb47vs2gdbmfhq55hmb9j.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
